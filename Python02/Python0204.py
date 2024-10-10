@@ -16,6 +16,14 @@ print(float2)
 
 # 复数类型
 
+
+
+# 布尔类型
+bool1 = True
+print(bool1)
+bool2 = False
+print(bool2)
+
 # 内置函数type()用来查看变量所指的对象类型
 print(type(int1))
 # 内置函数isinstance()也可以判断
