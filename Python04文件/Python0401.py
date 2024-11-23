@@ -1,4 +1,10 @@
-fname1 = 'my_file.txt'
-f = open(fname1, 'w+', encoding='utf-8', errors='ignore')
-f.write('Hello World, Hello File')
-f.close()
+# r只读模式
+# file1 = open('一个不存在的文件.txt', 'r')
+file1 = open('my_file.txt', 'r')
+file1.close()
+file2 = open('my_file.txt', 'w', encoding='utf-8', errors='ignore')
+file2.write('Hello World, Hello File')
+file2.close()
+file3 = open('my_file.txt', 'a')
+file3.write('追加内容')
+file3.close()
