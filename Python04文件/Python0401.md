@@ -57,19 +57,24 @@ open(name, mode)
 - mode: 访问模式
 
 ### 3.2、Open的文本访问模式
-- r(只读模式)
+- r(只读模式)  
 默认模式，用于读取文件内容，要求文件必须存在，否则会抛出异常`FileNotFoundError`;
 ```python
 file1 = open("一个不存在的文件.txt", "r")
 # 报错
 ```
-- w(只写模式)
+- w(只写模式)  
 如果文件存在，则被覆盖；如果不存在，则创建新文件；
 ```python
 file2 = open('my_file.txt', 'w', encoding='utf-8', errors='ignore')
 file2.write('Hello World, Hello File')
 file2.close()
 ```
-- a(追加模式)
+- a(追加模式)  
 以追加的方式打开文件，如果文件存在，文件指针将会放在文件的结尾；
 如果文件不存在，则创建新文件进行写入；
+```python
+file3 = open('my_file.txt', 'a')
+file3.write('追加内容')
+file3.close()
+```
