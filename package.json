@@ -1,0 +1,17 @@
+{
+  "name": "python-one",
+  "version": "1.0.0",
+  "description": "One notebook of Java",
+  "main": "index.js",
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "author": "ChatGIS",
+  "license": "ISC"
+}
