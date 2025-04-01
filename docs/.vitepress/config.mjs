@@ -49,7 +49,7 @@ export default defineConfig({
             ]
           },
           {
-            text: '文件',
+            text: '文件访问',
             collapsed: false,
             items: [
               {
