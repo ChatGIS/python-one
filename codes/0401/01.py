@@ -11,3 +11,4 @@ f.close()
 f1 = open('my_file.txt', 'a+', encoding='utf-8', errors='ignore')
 f1.write('追加内容；')
 f1.close()
+
