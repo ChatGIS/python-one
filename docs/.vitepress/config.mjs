@@ -53,13 +53,13 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
-                text: '文件概述', link: '/python/04/01'
+                text: '文件概述', link: '/python/05/01'
               },
               {
-                text: '文件函数', link: '/python/04/02'
+                text: '文件函数', link: '/python/05/02'
               },
               {
-                text: '访问模式', link: '/python/04/03'
+                text: '访问模式', link: '/python/05/03'
               }
             ]
           },
