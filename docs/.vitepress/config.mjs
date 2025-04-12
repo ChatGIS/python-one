@@ -10,31 +10,31 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: 'Python入门', link: '/python/0101' }
+      { text: 'Python入门', link: '/articles/0101' }
     ],
 
     sidebar: [
       {
         text: 'Python入门教程',
         items: [
-          { text: '你好, Python', link: '/python/0101' },
+          { text: '你好, Python', link: '/articles/0101' },
           {
             text: 'Python基础', 
             collapsed: false,
             items: [{
-              text: '注释、标识符、关键字', link: '/python/0201'
+              text: '注释、标识符、关键字', link: '/articles/0201'
             }, {
-              text: '变量', link: '/python/0202'
+              text: '变量', link: '/articles/0202'
             }, {
-              text: '代码缩进', link: '/python/0203'
+              text: '代码缩进', link: '/articles/0203'
             }, {
-              text: '基本数据类型', link: '/python/0204'
+              text: '基本数据类型', link: '/articles/0204'
             }, {
-              text: '高级数据类型', link: '/python/0205'
+              text: '高级数据类型', link: '/articles/0205'
             }, {
-              text: '运算符', link: '/python/0206'
+              text: '运算符', link: '/articles/0206'
             }, {
-              text: '流程控制', link: '/python/0207'
+              text: '流程控制', link: '/articles/0207'
             }] 
           },
           {
@@ -42,9 +42,9 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
-                text: '函数', link: '/python/0301'
+                text: '函数', link: '/articles/0301'
               },{
-                text: '面向对象', link: '/python/0302'
+                text: '面向对象', link: '/articles/0302'
               }
             ]
           },
@@ -53,13 +53,13 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
-                text: '文件概述', link: '/python/05/01'
+                text: '文件概述', link: '/articles/05/01'
               },
               {
-                text: '文件函数', link: '/python/05/02'
+                text: '文件函数', link: '/articles/05/02'
               },
               {
-                text: '访问模式', link: '/python/05/03'
+                text: '访问模式', link: '/articles/05/03'
               }
             ]
           },
@@ -68,7 +68,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
-                text: '选型', link: '/python/0501'
+                text: '选型', link: '/articles/0501'
               }
             ]
           }
