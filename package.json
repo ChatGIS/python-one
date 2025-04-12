@@ -13,5 +13,5 @@
     "preview": "vitepress preview docs"
   },
   "author": "ChatGIS",
-  "license": "ISC"
+  "license": "GPL-3.0 license"
 }
