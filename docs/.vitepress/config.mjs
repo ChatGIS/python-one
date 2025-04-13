@@ -49,6 +49,16 @@ export default defineConfig({
             ]
           },
           {
+            text: '异常处理',
+            collapsed: true,
+            items: [
+              {
+                text: '处理异常', link: '/articles/04/01'
+              }
+            ]
+
+          },
+          {
             text: '文件访问',
             collapsed: false,
             items: [
