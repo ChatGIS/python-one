@@ -53,7 +53,10 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
-                text: '处理异常', link: '/articles/04/01'
+                text: '常见异常', link: '/articles/04/01'
+              },
+              {
+                text: '堆栈跟踪traceback', link: '/articles/04/02'
               }
             ]
 
