@@ -57,6 +57,9 @@ export default defineConfig({
               },
               {
                 text: '堆栈跟踪traceback', link: '/articles/04/02'
+              },
+              {
+                text: '异常处理try/except', link: '/articles/04/03'
               }
             ]
 
