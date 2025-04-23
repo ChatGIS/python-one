@@ -60,6 +60,9 @@ export default defineConfig({
               },
               {
                 text: '异常处理try/except', link: '/articles/04/03'
+              },
+              {
+                text: '资源管理with/as', link: '/articles/04/04'
               }
             ]
 
