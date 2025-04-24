@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import {f} from "vitepress/dist/node/chunk-DMuPggCS.js";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -20,7 +21,7 @@ export default defineConfig({
           { text: '你好, Python', link: '/articles/0101' },
           {
             text: 'Python基础', 
-            collapsed: false,
+            collapsed: true,
             items: [{
               text: '注释、标识符、关键字', link: '/articles/0201'
             }, {
@@ -42,15 +43,15 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
-                text: '函数', link: '/articles/0301'
+                text: '函数', link: '/articles/03/01'
               },{
-                text: '面向对象', link: '/articles/0302'
+                text: '面向对象', link: '/articles/03/02'
               }
             ]
           },
           {
             text: '异常处理',
-            collapsed: true,
+            collapsed: false,
             items: [
               {
                 text: '常见异常', link: '/articles/04/01'
@@ -84,7 +85,7 @@ export default defineConfig({
           },
           {
             text: 'GUI',
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: '选型', link: '/articles/0501'
