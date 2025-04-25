@@ -43,9 +43,15 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
-                text: '函数', link: '/articles/03/01'
-              },{
+                text: '理解面向对象', link: '/articles/03/01'
+              },
+              {
                 text: '面向对象', link: '/articles/03/02'
+              },
+              {
+                text: '函数', link: '/articles/03/03'
+              },{
+                text: '面向对象', link: '/articles/03/04'
               }
             ]
           },
