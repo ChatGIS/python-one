@@ -49,9 +49,13 @@ export default defineConfig({
                 text: '抽象性', link: '/articles/03/02'
               },
               {
-                text: '函数', link: '/articles/03/03'
-              },{
-                text: '面向对象', link: '/articles/03/04'
+                text: '封装性', link: '/articles/03/03'
+              },
+              {
+                text: '继承性', link: '/articles/03/04'
+              },
+              {
+                text: '多态性', link: '/articles/03/05'
               }
             ]
           },
