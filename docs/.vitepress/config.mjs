@@ -18,7 +18,18 @@ export default defineConfig({
       {
         text: 'Python入门教程',
         items: [
-          { text: '你好, Python', link: '/articles/0101' },
+          {
+            text: '你好, Python',
+            collapsed: false,
+            items: [
+              {
+                text: '遥遥领先', link: '/articles/01/01'
+              },
+              {
+                text: '关于Python', link: '/articles/01/02'
+              }
+            ]
+          },
           {
             text: 'Python基础', 
             collapsed: true,
