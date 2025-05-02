@@ -34,19 +34,19 @@ export default defineConfig({
             text: 'Python基础', 
             collapsed: true,
             items: [{
-              text: '注释、标识符、关键字', link: '/articles/0201'
+              text: '注释、标识符、关键字', link: '/articles/02/01'
             }, {
-              text: '变量', link: '/articles/0202'
+              text: '变量', link: '/articles/02/02'
             }, {
-              text: '代码缩进', link: '/articles/0203'
+              text: '代码缩进', link: '/articles/02/03'
             }, {
-              text: '基本数据类型', link: '/articles/0204'
+              text: '基本数据类型', link: '/articles/02/04'
             }, {
-              text: '高级数据类型', link: '/articles/0205'
+              text: '高级数据类型', link: '/articles/02/05'
             }, {
-              text: '运算符', link: '/articles/0206'
+              text: '运算符', link: '/articles/02/06'
             }, {
-              text: '流程控制', link: '/articles/0207'
+              text: '流程控制', link: '/articles/02/07'
             }] 
           },
           {
