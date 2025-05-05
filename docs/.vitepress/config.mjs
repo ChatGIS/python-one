@@ -32,7 +32,7 @@ export default defineConfig({
           },
           {
             text: 'Python基础', 
-            collapsed: true,
+            collapsed: false,
             items: [{
               text: '注释、标识符、关键字', link: '/articles/02/01'
             }, {
@@ -54,19 +54,19 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
-                text: '理解面向对象', link: '/articles/03/01'
+                text: '理解面向对象', link: '/articles/04/01'
               },
               {
-                text: '抽象性', link: '/articles/03/02'
+                text: '抽象性', link: '/articles/04/02'
               },
               {
-                text: '封装性', link: '/articles/03/03'
+                text: '封装性', link: '/articles/04/03'
               },
               {
-                text: '继承性', link: '/articles/03/04'
+                text: '继承性', link: '/articles/04/04'
               },
               {
-                text: '多态性', link: '/articles/03/05'
+                text: '多态性', link: '/articles/04/05'
               }
             ]
           },
@@ -75,16 +75,16 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
-                text: '常见异常', link: '/articles/04/01'
+                text: '常见异常', link: '/articles/05/01'
               },
               {
-                text: '堆栈跟踪traceback', link: '/articles/04/02'
+                text: '堆栈跟踪traceback', link: '/articles/05/02'
               },
               {
-                text: '异常处理try/except', link: '/articles/04/03'
+                text: '异常处理try/except', link: '/articles/05/03'
               },
               {
-                text: '资源管理with/as', link: '/articles/04/04'
+                text: '资源管理with/as', link: '/articles/05/04'
               }
             ]
 
@@ -94,22 +94,13 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
-                text: '文件概述', link: '/articles/05/01'
+                text: '文件概述', link: '/articles/06/01'
               },
               {
-                text: '文件函数', link: '/articles/05/02'
+                text: '文件函数', link: '/articles/06/02'
               },
               {
-                text: '访问模式', link: '/articles/05/03'
-              }
-            ]
-          },
-          {
-            text: 'GUI',
-            collapsed: true,
-            items: [
-              {
-                text: '选型', link: '/articles/0501'
+                text: '访问模式', link: '/articles/06/03'
               }
             ]
           }
