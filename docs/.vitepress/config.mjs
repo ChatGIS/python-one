@@ -11,7 +11,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: 'Python入门', link: '/articles/0101' }
+      { text: '开始学习吧', link: '/articles/01/01' }
     ],
 
     sidebar: [
@@ -48,6 +48,14 @@ export default defineConfig({
             }, {
               text: '流程控制', link: '/articles/02/07'
             }] 
+          },{
+            text: '函数',
+            collapsed: false,
+            items: [
+              {
+                text: '函数定义', link: '/articles/03/01'
+              }
+            ]
           },
           {
             text: '面向对象',
