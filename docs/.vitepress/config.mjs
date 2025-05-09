@@ -53,7 +53,9 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
-                text: '函数定义', link: '/articles/03/01'
+                text: '函数基础', link: '/articles/03/01'
+              }, {
+                text: '匿名函数', link: '/articles/03/02'
               }
             ]
           },

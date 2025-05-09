@@ -27,3 +27,18 @@ def print_info(**kwargs):
     for key, value in kwargs.items():
         print(f"{key}: {value}")
 print_info(name="ChatGIS", age=3, country="China")
+
+def get_name_and_age():
+    return "Bob", 25  # 返回元组
+
+name, age = get_name_and_age()  # 元组解包
+print(name, age)  # 输出 "Bob 25"
+
+x = 10  # 全局变量
+
+def modify_x():
+    global x  # 声明要修改全局变量
+    x = 20
+
+modify_x()
+print(x)  # 输出 20

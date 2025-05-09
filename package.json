@@ -1,6 +1,6 @@
 {
   "name": "python-one",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "One notebook of Java",
   "main": "index.js",
   "devDependencies": {
