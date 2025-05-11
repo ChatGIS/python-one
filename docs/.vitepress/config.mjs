@@ -56,6 +56,8 @@ export default defineConfig({
                 text: '函数基础', link: '/articles/03/01'
               }, {
                 text: '匿名函数', link: '/articles/03/02'
+              }, {
+                text: '高阶函数', link: '/articles/03/03'
               }
             ]
           },
