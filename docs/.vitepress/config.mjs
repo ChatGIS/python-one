@@ -115,6 +115,14 @@ export default defineConfig({
                 text: '访问模式', link: '/articles/06/03'
               }
             ]
+          }, {
+            text: '模块与包',
+            collapsed: false,
+            items: [
+              {
+                text: '模块', link: '/articles/07/01'
+              }
+            ]
           }
         ]
       }
