@@ -20,7 +20,7 @@ export default defineConfig({
         items: [
           {
             text: '你好, Python',
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: '遥遥领先', link: '/articles/01/01'
@@ -32,7 +32,7 @@ export default defineConfig({
           },
           {
             text: 'Python基础', 
-            collapsed: false,
+            collapsed: true,
             items: [{
               text: '注释、标识符、关键字', link: '/articles/02/01'
             }, {
@@ -50,7 +50,7 @@ export default defineConfig({
             }] 
           },{
             text: '函数',
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: '函数基础', link: '/articles/03/01'
@@ -63,7 +63,7 @@ export default defineConfig({
           },
           {
             text: '面向对象',
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: '理解面向对象', link: '/articles/04/01'
@@ -84,7 +84,7 @@ export default defineConfig({
           },
           {
             text: '异常处理',
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: '常见异常', link: '/articles/05/01'
@@ -103,7 +103,7 @@ export default defineConfig({
           },
           {
             text: '文件访问',
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: '文件概述', link: '/articles/06/01'
@@ -117,7 +117,7 @@ export default defineConfig({
             ]
           }, {
             text: '模块与包',
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: '模块', link: '/articles/07/01'
