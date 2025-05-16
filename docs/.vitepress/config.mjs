@@ -121,6 +121,8 @@ export default defineConfig({
             items: [
               {
                 text: '模块', link: '/articles/07/01'
+              }, {
+                text: '包', link: '/articles/07/02'
               }
             ]
           }
