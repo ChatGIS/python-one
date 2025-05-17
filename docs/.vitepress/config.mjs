@@ -123,6 +123,8 @@ export default defineConfig({
                 text: '模块', link: '/articles/07/01'
               }, {
                 text: '包', link: '/articles/07/02'
+              }, {
+                text: 'pip', link: '/articles/07/03'
               }
             ]
           }
