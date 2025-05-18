@@ -127,6 +127,14 @@ export default defineConfig({
                 text: 'pip', link: '/articles/07/03'
               }
             ]
+          }, {
+            text: '连接数据库',
+            collapsed: true,
+            items: [
+              {
+                text: 'MySQL', link: '/articles/08/01'
+              }
+            ]
           }
         ]
       }
